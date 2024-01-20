@@ -18,6 +18,7 @@ struct StartView: View {
                     Text("wellcome")
                         .padding()
                         .font(.largeTitle)
+                    
                     Text("to DiceRoller")
                         .padding()
                         .font(.title)
@@ -25,6 +26,9 @@ struct StartView: View {
                     NavigationLink {ContentView().navigationBarBackButtonHidden(true)} label: {
                         Text("start")
                             .font(.largeTitle)
+                            .foregroundColor(.black)
+                            .bold()
+                           
                     }
                 }}
         
